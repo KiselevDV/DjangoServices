@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p><b>{{ i_get_damage }}</b></p>
+<p><i>{{ i_set_damage }}</i></p>
+
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit">Удар</button>
+</form>
+
+</body>
+</html>
